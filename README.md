@@ -2,7 +2,7 @@
 
 A comprehensive collection of projects focused on **clean transportation routing**, **pollution hotspot detection**, and **graph neural network analysis** for Varanasi, India.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Projects](#projects)
@@ -13,7 +13,7 @@ A comprehensive collection of projects focused on **clean transportation routing
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🌟 Overview
+## Overview
 
 CleanTourPaths is a multi-faceted project that addresses urban transportation challenges through:
 - **Intelligent routing** that considers air quality and traffic conditions
@@ -21,80 +21,39 @@ CleanTourPaths is a multi-faceted project that addresses urban transportation ch
 - **Graph neural network analysis** for transportation networks
 - **Real-time data processing** and visualization
 
-## 🚀 Projects
+## Projects
 
-### 1. Congestion Emission Routing System 🚗💨
+### 1. Congestion Emission Routing System
 
 A Java Spring Boot application that provides intelligent routing solutions considering:
 - **Air Quality Index (AQI)** data
 - **Traffic congestion** patterns
-- **Emission levels** for different transport modes
 - **Multi-modal transportation** options
 
 #### Features
-- Real-time air quality monitoring
-- Traffic-aware routing algorithms
-- Emission calculation for different transport modes
-- Interactive map visualization using Leaflet.js
-- RESTful API endpoints for route optimization
+- Real-time multimodal routing information
+- Routing algorithms based on air pollution exposure, congestion, distance, and time
+- Interactive map visualization
 
-#### Technology Stack
-- **Backend**: Java 11+, Spring Boot 2.x
-- **Build Tool**: Maven
-- **Database**: In-memory (configurable)
-- **Frontend**: HTML5, CSS3, JavaScript (Leaflet.js)
-- **Maps**: OpenStreetMap integration
+### 2. Hotspot Detection
 
-### 2. Hotspot Detection 🔥📊
-
-Python-based analysis tool for identifying pollution hotspots in Varanasi using WHO guidelines.
+Python-based analysis tool for identifying recurring and non-recurring air pollution hotspots in Varanasi using WHO guidelines.
 
 #### Features
 - **Peak vs. Off-peak** hour analysis
 - **Pollution density mapping**
 - **Hotspot visualization** with interactive maps
-- **Statistical analysis** of air quality data
-- **HTML report generation** for analysis results
+- **Development of Hotspot Index** 
 
-#### Technology Stack
-- **Language**: Python 3.8+
-- **Data Processing**: Pandas, NumPy
-- **Visualization**: Matplotlib, Plotly
-- **Maps**: Folium (Leaflet.js wrapper)
-- **Analysis**: Statistical modeling
+### 3. Spatiotemporal Graph Neural Network (STGNN) for Varanasi
 
-### 3. GNN Varanasi 🧠🕸️
-
-Graph Neural Network implementation for analyzing transportation networks in Varanasi.
+Spatiotemporal Graph Neural Network (STGNN) is used for the prediction of PM2.5 for Varanasi.
 
 #### Features
-- **Graph structure analysis** of transportation networks
-- **Node classification** and prediction
-- **Network optimization** algorithms
-- **Machine learning** models for traffic prediction
+- **Graph formation** for fixed monitors
+- **Long Short Term Memory (LSTM)** for temporal prediction
+- **Graph Neural Network (GNN)** for spatial prediction
 
-#### Technology Stack
-- **Language**: Python 3.8+
-- **Deep Learning**: PyTorch Geometric
-- **Graph Processing**: NetworkX
-- **Data Science**: Pandas, NumPy, Scikit-learn
-- **Notebook**: Jupyter
-
-## 📋 Prerequisites
-
-### System Requirements
-- **Operating System**: Windows 10+, macOS 10.14+, or Ubuntu 18.04+
-- **RAM**: Minimum 8GB (16GB recommended)
-- **Storage**: 10GB free space
-- **Java**: Version 11 or higher
-- **Python**: Version 3.8 or higher
-
-### Required Software
-- **Java Development Kit (JDK)**: 11+
-- **Python**: 3.8+
-- **Maven**: 3.6+
-- **Git**: Latest version
-- **Web Browser**: Chrome, Firefox, or Safari
 
 ## 🛠️ Installation & Setup
 
@@ -201,15 +160,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-#### Required Python Packages
-```bash
-pip install torch torch-geometric networkx pandas numpy matplotlib jupyter
-```
 
-#### Run Jupyter Notebook
-```bash
-jupyter notebook GNN_Varanasi.ipynb
-```
 
 ## 🚀 Usage
 
