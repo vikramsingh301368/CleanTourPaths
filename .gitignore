@@ -72,9 +72,17 @@ credentials.json
 api_keys.txt
 passwords.txt
 
-# ===== MAP AND GEOGRAPHIC DATA =====
-*.osm.pbf
-*.pbf
+# ===== MAP AND GEOGRAPHIC DATA (EXCLUDE NON-VARANASI) =====
+# Exclude Delhi and other non-Varanasi map files
+*Delhi*.osm.pbf
+*Delhi*.pbf
+*NCR*.osm.pbf
+*NewDelhi*.osm.pbf
+*NetworkWithRingRoad*.osm.pbf
+# Keep Varanasi files but exclude these coordinate-based files if they're not Varanasi
+planet_77.1033,28.5352_77.2022,28.5918.osm.pbf
+planet_77.28778,28.66802_77.31248,28.68073.osm.pbf
+# Other geographic formats
 *.shp
 *.shx
 *.dbf
@@ -111,8 +119,11 @@ temp/
 # Congestion Emission Routing System
 congestion-emission-routing-system/config.properties
 congestion-emission-routing-system/input/*.csv
-congestion-emission-routing-system/maps/*.osm.pbf
-congestion-emission-routing-system/maps/*.pbf
+# Only exclude non-Varanasi map files, keep Varanasi.pbf and Varanasi coordinate files
+congestion-emission-routing-system/maps/*Delhi*.osm.pbf
+congestion-emission-routing-system/maps/*Delhi*.pbf
+congestion-emission-routing-system/maps/*NCR*.osm.pbf
+congestion-emission-routing-system/maps/*NetworkWithRingRoad*.osm.pbf
 congestion-emission-routing-system/nullresults_*.csv
 
 # Hotspot Detection
