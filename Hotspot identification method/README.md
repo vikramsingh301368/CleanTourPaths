@@ -1,4 +1,4 @@
-# pollution_hotspots_detection
+# Hotspot Identification Method
 
 # Varanasi Air Quality Analysis (WHO Standards)
 

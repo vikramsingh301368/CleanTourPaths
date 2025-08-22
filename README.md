@@ -66,7 +66,7 @@ We are currently working on giving a relevant message to the client instead.
 ### 2. Setup Hotspot Detection
 
 * Install Python Dependencies
-* bash cd hostspot_detection
+* bash cd "Hotspot identification method"
 * Create and activate a virtual environment
 * Install dependencies
 * Run Analysis-python analyze_varanasi_who.py
