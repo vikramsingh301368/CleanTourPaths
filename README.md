@@ -65,26 +65,14 @@ We are currently working on giving a relevant message to the client instead.
 
 ### 2. Setup Hotspot Detection
 
-*Install Python Dependencies
-
-*bash cd hostspot_detection
-
-*Create virtual environment
-
-*Activate virtual environment
-
-*Install dependencies
-
-*Run Analysis
-
-*Run main analysis
-python analyze_varanasi_who.py
-
-*Run data separation
-python data_speration.py
-
-*View results
- Open analyze_results_who/*.html files in your browser
+* Install Python Dependencies
+* bash cd hostspot_detection
+* Create a virtual environment
+* Activate virtual environment
+* Install dependencies
+* Run Analysis-python analyze_varanasi_who.py
+* Run data separation-python data_speration.py
+* View results-Open analyze_results_who/*.html files in your browser
 
 
 ### 3. Setup GNN Varanasi
