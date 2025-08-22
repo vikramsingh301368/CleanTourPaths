@@ -1,0 +1,129 @@
+# ===== GENERAL SYSTEM FILES =====
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+
+# ===== IDE AND EDITOR FILES =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== PYTHON FILES =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ===== JAVA FILES =====
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+out/
+*.iml
+.classpath
+.project
+.settings/
+
+# ===== DATA AND CONFIGURATION FILES =====
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+config.properties
+application.properties
+*.env
+*.config
+secrets.json
+credentials.json
+api_keys.txt
+passwords.txt
+
+# ===== MAP AND GEOGRAPHIC DATA =====
+*.osm.pbf
+*.pbf
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.topojson
+
+# ===== OUTPUT AND RESULTS =====
+output/
+results/
+analysis_results/
+*.results
+*.output
+nullresults_*.csv
+
+# ===== CACHE AND TEMPORARY FILES =====
+.cache/
+tmp/
+temp/
+*.cache
+*.tmp
+
+# ===== OS SPECIFIC =====
+# Windows
+*.lnk
+# macOS
+.AppleDouble
+.LSOverride
+# Linux
+*~
+
+# ===== SENSITIVE PROJECT FILES =====
+# Congestion Emission Routing System
+congestion-emission-routing-system/config.properties
+congestion-emission-routing-system/input/*.csv
+congestion-emission-routing-system/maps/*.osm.pbf
+congestion-emission-routing-system/maps/*.pbf
+congestion-emission-routing-system/nullresults_*.csv
+
+# Hotspot Detection
+hostspot_detection/*.csv
+hostspot_detection/analysis_results/
+
+# GNN Varanasi
+GNN_varanasi/*.csv
+GNN_varanasi/data/
+GNN_varanasi/models/
+GNN_varanasi/checkpoints/
+
+# ===== GIT =====
+.git/
