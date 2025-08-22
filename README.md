@@ -2,17 +2,6 @@
 
 A comprehensive collection of projects focused on **clean transportation routing**, **pollution hotspot detection**, and **graph neural network analysis** for Varanasi, India.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Projects](#projects)
-- [Prerequisites](#prerequisites)
-- [Installation & Setup](#installation--setup)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Overview
 
 CleanTourPaths is a multi-faceted project that addresses urban transportation challenges through:
