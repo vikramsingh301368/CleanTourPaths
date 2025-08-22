@@ -14,12 +14,10 @@ CleanTourPaths is a multi-faceted project that addresses urban transportation ch
 
 ### 1. Multimodal Routing System
 
-A Java Spring Boot application that provides intelligent routing solutions considering:
-- **Air Quality Index (AQI)** data
-- **Traffic congestion** patterns
-- **Multi-modal transportation** options
+
 
 #### Features
+- Java Spring Boot application 
 - Real-time multimodal routing information
 - Routing algorithms based on air pollution exposure, congestion, distance, and time
 - Interactive map visualization
@@ -45,10 +43,11 @@ Spatiotemporal Graph Neural Network (STGNN) is used for the prediction of PM2.5 
 
 
 ## 🛠️ Installation & Setup
-
-### 1. Multimodal routing system
 In order to use the above project,
-* Clone the repository using the following command on your console/command prompt in the location of your choice: <br>git clone https://github.com/vikramsingh301368/CleanTourPaths.git 
+* Clone the repository using the following command on your console/command prompt in the location of your choice: <br>git clone https://github.com/vikramsingh301368/CleanTourPaths.git
+  
+### 1. Multimodal routing system
+
 * Get your two API keys from:
   * HERE Maps REST API (freemium): https://developer.here.com
   * WAQI API: https://aqicn.org/api/
