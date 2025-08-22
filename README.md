@@ -76,7 +76,7 @@ We are currently working on giving a relevant message to the client instead.
 ### 3. Setup GNN Varanasi
 
 * Install Python Dependencies
-* bash cd hostspot_detection
+* bash cd GNN_varanasi
 * Create and activate a virtual environment
 * Install dependencies
 
