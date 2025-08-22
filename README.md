@@ -1,12 +1,12 @@
 # CleanTourPaths 🚗🌱🗺️
 
-A comprehensive collection of projects focused on **clean transportation routing**, **pollution hotspot detection**, and **graph neural network analysis** for Varanasi, India.
+A comprehensive collection of projects focused on **clean transportation routing**, **pollution hotspot identification**, and **graph neural network analysis** for Varanasi, India.
 
 ## Overview
 
 CleanTourPaths is a multi-faceted project that addresses urban transportation challenges through:
 - **Intelligent routing** that considers air quality and traffic conditions
-- **Pollution hotspot detection** using WHO guidelines
+- **Pollution hotspot identification** using WHO guidelines
 - **Graph neural network analysis** for transportation networks
 - **Real-time data processing** and visualization
 
@@ -22,7 +22,7 @@ CleanTourPaths is a multi-faceted project that addresses urban transportation ch
 - Routing algorithms based on air pollution exposure, congestion, distance, and time
 - Interactive map visualization
 
-### 2. Hotspot Detection
+### 2. Hotspot Identification Method
 
 Python-based analysis tool for identifying recurring and non-recurring air pollution hotspots in Varanasi using WHO guidelines.
 
@@ -63,7 +63,7 @@ Please note that specifying points outside the bounds of the datareader file cur
 [com.graphhopper.util.exceptions.PointOutOfBoundsException: Point 0 is out of bounds: your_latitude,your_longitude the bounds are: bbox of datareader file] <br>
 We are currently working on giving a relevant message to the client instead.
 
-### 2. Setup Hotspot Detection
+### 2. Setup Hotspot Identification Method
 
 * Install Python Dependencies
 * bash cd "Hotspot identification method"
