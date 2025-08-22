@@ -12,7 +12,7 @@ CleanTourPaths is a multi-faceted project that addresses urban transportation ch
 
 ## Projects
 
-### 1. Congestion Emission Routing System
+### 1. Multimodal Routing System
 
 A Java Spring Boot application that provides intelligent routing solutions considering:
 - **Air Quality Index (AQI)** data
