@@ -65,39 +65,27 @@ We are currently working on giving a relevant message to the client instead.
 
 ### 2. Setup Hotspot Detection
 
-#### Install Python Dependencies
-```bash
-cd hostspot_detection
+*Install Python Dependencies
 
-# Create virtual environment
-python -m venv venv
+*bash cd hostspot_detection
 
-# Activate virtual environment
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
+*Create virtual environment
 
-# Install dependencies
-pip install -r requirements.txt
-```
+*Activate virtual environment
 
-#### Required Python Packages
-```bash
-pip install pandas numpy matplotlib plotly folium scikit-learn
-```
+*Install dependencies
 
-#### Run Analysis
-```bash
-# Run main analysis
+*Run Analysis
+
+*Run main analysis
 python analyze_varanasi_who.py
 
-# Run data separation
+*Run data separation
 python data_speration.py
 
-# View results
-# Open analyze_results_who/*.html files in your browser
-```
+*View results
+ Open analyze_results_who/*.html files in your browser
+
 
 ### 3. Setup GNN Varanasi
 
