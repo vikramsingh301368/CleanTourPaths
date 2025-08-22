@@ -109,17 +109,17 @@ temp/
 *~
 
 # ===== SENSITIVE PROJECT FILES =====
-# Congestion Emission Routing System
-congestion-emission-routing-system/config.properties
-congestion-emission-routing-system/input/*.csv
+# Multimodal Routing System
+Multimodal routing system/config.properties
+Multimodal routing system/input/*.csv
 # Exclude non-Varanasi map files
-congestion-emission-routing-system/maps/*.osm.pbf
-congestion-emission-routing-system/maps/*.pbf
-congestion-emission-routing-system/nullresults_*.csv
+Multimodal routing system/maps/*.osm.pbf
+Multimodal routing system/maps/*.pbf
+Multimodal routing system/nullresults_*.csv
 
-# Hotspot Detection
-hostspot_detection/*.csv
-hostspot_detection/analysis_results/
+# Hotspot Identification Method
+Hotspot identification method/*.csv
+Hotspot identification method/analysis_results/
 
 # GNN Varanasi
 GNN_varanasi/*.csv
