@@ -67,33 +67,18 @@ We are currently working on giving a relevant message to the client instead.
 
 * Install Python Dependencies
 * bash cd hostspot_detection
-* Create a virtual environment
-* Activate virtual environment
+* Create and activate a virtual environment
 * Install dependencies
 * Run Analysis-python analyze_varanasi_who.py
 * Run data separation-python data_speration.py
 * View results-Open analyze_results_who/*.html files in your browser
 
-
 ### 3. Setup GNN Varanasi
 
-#### Install Python Dependencies
-```bash
-cd GNN_varanasi
-
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
+* Install Python Dependencies
+* bash cd hostspot_detection
+* Create and activate a virtual environment
+* Install dependencies
 
 ## 📊 Data Sources
 
