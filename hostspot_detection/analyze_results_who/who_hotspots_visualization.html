@@ -1,0 +1,80 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Varanasi Pollution Hotspots (WHO Standards)</title>
+        <style>
+            body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+            .container { width: 100%; height: 100vh; position: relative; }
+            iframe { width: 100%; height: 100%; border: none; }
+            .controls {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                background: white;
+                padding: 15px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                z-index: 1000;
+            }
+            .button-group {
+                display: flex;
+                gap: 10px;
+                margin-top: 10px;
+            }
+            button {
+                padding: 8px 15px;
+                cursor: pointer;
+                border: none;
+                border-radius: 4px;
+                background-color: #f0f0f0;
+                transition: background-color 0.3s;
+            }
+            button.active {
+                background-color: #4285f4;
+                color: white;
+            }
+            .current-view {
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="controls">
+                <div class="current-view">Current View: <span id="view-mode">Overall</span></div>
+                <div class="button-group">
+                    <button onclick="setView('overall')" class="active">Overall</button>
+                    <button onclick="setView('peak')">Peak Hours</button>
+                    <button onclick="setView('off-peak')">Off-Peak Hours</button>
+                </div>
+            </div>
+            <iframe id="map-frame" src="who_pollution_hotspots_map.html"></iframe>
+        </div>
+        
+        <script>
+            function setView(view) {
+                document.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
+                document.querySelector(`button[onclick="setView('${view}')"]`).classList.add('active');
+                
+                document.getElementById('view-mode').textContent = view.charAt(0).toUpperCase() + view.slice(1);
+                
+                let src;
+                switch(view) {
+                    case 'overall':
+                        src = 'who_pollution_hotspots_map.html';
+                        break;
+                    case 'peak':
+                        src = 'who_peak_hours_hotspots_map.html';
+                        break;
+                    case 'off-peak':
+                        src = 'who_off_peak_hours_hotspots_map.html';
+                        break;
+                }
+                document.getElementById('map-frame').src = src;
+            }
+        </script>
+    </body>
+    </html>
+    

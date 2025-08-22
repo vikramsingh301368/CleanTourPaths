@@ -1,0 +1,14 @@
+.classpath
+.project
+.settings
+target
+results.txt
+*.DS_Store
+*.iml
+.idea
+
+*/test/output/
+*/output
+/bin/
+graphLocation
+/output/
